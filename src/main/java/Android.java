@@ -1,4 +1,4 @@
-public class iPhone extends Mobile{
+public class Android extends Mobile {
     private String message;
     private String name;
     private String color;
@@ -46,7 +46,7 @@ public class iPhone extends Mobile{
 
     @Override
     public void call() {
-        System.out.println("<Iphone>"+ "Message :" + message);
+        System.out.println("<Android>"+ "Message :" + getMessage());
     }
 
     @Override
